@@ -27,6 +27,8 @@ config :canopy, Canopy.Repo,
   port: 5432,
   pool_size: 10
 
+config :canopy, :start_repo, true
+
 # ## SSL Support
 #
 # In order to use HTTPS in development, a self-signed
